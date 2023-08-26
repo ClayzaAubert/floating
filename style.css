@@ -1,0 +1,86 @@
+body {
+
+    background: url("./img/bg.jpg");
+    background-size: cover;
+
+    /* Warna latar belakang sesuaikan dengan kebutuhan Anda */
+}
+
+.floating-menu {
+    position: absolute;
+    left: 50%; /* Pusat horizontal */
+    bottom: 0; /* Pusat vertikal di bagian bawah layar */
+    transform: translateX(-50%); /* Geser menu horizontal ke tengah */
+    justify-content: center; /* Pusat konten horizontal */
+    align-items: center; /* Pusat konten vertikal */
+    z-index: 6;
+
+}
+
+.menu-item {
+    display: block;
+    cursor: pointer;
+}
+
+
+#menu-1 {
+    display: block;
+    /* Tampilkan menu-1 saat awal */
+}
+
+#menu-1 img {
+    width: 110px;
+    height: auto;
+}
+
+#menu-2 {
+    display: none;
+    z-index: 7;
+}
+
+#menu-2 img {
+    width: 60px;
+    height: auto;
+}
+
+#sub-menu-1 {
+    display: none;
+    transform: translate(-16px, 115px);
+    transition-delay: .05s;
+    z-index: 8;
+}
+
+#sub-menu-2 {
+    display: none;
+    transform: translate(5px, 66px);
+    transition-delay: .1s;
+    z-index: 8;
+}
+
+
+#sub-menu-3 {
+    display: none;
+    transform: translate(29px, 36px);
+    transition-delay: .15s;
+    z-index: 8;
+}
+
+
+#sub-menu-4 {
+    display: none;
+    transform: translate(50px, 25px);
+    transition-delay: .20s;
+    z-index: 8;
+}
+
+#sub-menu-3 img {
+    width: 26px;
+    height: auto;
+}
+
+#sub-menu-1 img, #sub-menu-2 img, #sub-menu-4 img {
+    width: 25px;
+    height: auto;
+}
+
+ 
