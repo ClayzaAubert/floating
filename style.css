@@ -75,11 +75,13 @@ body {
 }
 
 #sub-menu-3 img {
+    display: inline-block;
     width: 62px;
     height: auto;
 }
 
 #sub-menu-1 img, #sub-menu-2 img, #sub-menu-4 img {
+    display: inline-block;
     width: 60px;
     height: auto;
 }
