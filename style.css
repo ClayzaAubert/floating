@@ -12,7 +12,12 @@ body {
     justify-content: center; /* Pusat konten horizontal */
     align-items: center; /* Pusat konten vertikal */
     z-index: 6;
+}
 
+
+.menu-item1 {
+    display: block;
+    cursor: pointer;
 }
 
 .menu-item {
@@ -20,10 +25,8 @@ body {
     cursor: pointer;
 }
 
-
 #menu-1 {
     display: block;
-    /* Tampilkan menu-1 saat awal */
 }
 
 #menu-1 img {
@@ -37,20 +40,20 @@ body {
 }
 
 #menu-2 img {
-    width: 60px;
+    width: 150px;
     height: auto;
 }
 
 #sub-menu-1 {
     display: none;
-    transform: translate(-16px, 115px);
+    transform: translate(-30px, 250px);
     transition-delay: .05s;
     z-index: 8;
 }
 
 #sub-menu-2 {
     display: none;
-    transform: translate(5px, 66px);
+    transform: translate(13px, 145px);
     transition-delay: .1s;
     z-index: 8;
 }
@@ -58,7 +61,7 @@ body {
 
 #sub-menu-3 {
     display: none;
-    transform: translate(29px, 36px);
+    transform: translate(75px, 79px);
     transition-delay: .15s;
     z-index: 8;
 }
@@ -66,19 +69,17 @@ body {
 
 #sub-menu-4 {
     display: none;
-    transform: translate(50px, 25px);
+    transform: translate(119px, 55px);
     transition-delay: .20s;
     z-index: 8;
 }
 
 #sub-menu-3 img {
-    width: 26px;
+    width: 62px;
     height: auto;
 }
 
 #sub-menu-1 img, #sub-menu-2 img, #sub-menu-4 img {
-    width: 25px;
+    width: 60px;
     height: auto;
 }
-
- 
