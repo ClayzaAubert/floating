@@ -7,7 +7,7 @@ body {
 .floating-menu {
     position: absolute;
     left: 50%; /* Pusat horizontal */
-    bottom: 0; /* Pusat vertikal di bagian bawah layar */
+    bottom: -5px; /* Pusat vertikal di bagian bawah layar */
     transform: translateX(-50%); /* Geser menu horizontal ke tengah */
     justify-content: center; /* Pusat konten horizontal */
     align-items: center; /* Pusat konten vertikal */
