@@ -1,3 +1,21 @@
+// Menggunakan JavaScript untuk menambahkan dan menghapus kelas 'active' saat ikon diklik
+document.addEventListener("DOMContentLoaded", function() {
+    const menuItems = document.querySelectorAll(".menu-item");
+
+    menuItems.forEach(item => {
+        item.addEventListener("click", function() {
+            // Menghapus kelas 'active' dari semua ikon
+            menuItems.forEach(otherItem => {
+                otherItem.classList.remove("active");
+            });
+
+            // Menambahkan kelas 'active' ke ikon yang diklik
+            item.classList.add("active");
+        });
+    });
+});
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const menu1 = document.getElementById('menu-1');
     const menu2 = document.getElementById('menu-2');
